@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "attackoverlay",
+  "version": "${version}",
+
+  "name": "Attack Overlay",
+  "description": "Improves timing and aim in all pvp gamemodes by letting you know when to hit. Credit to dicedpixels on discord for helping me out",
+  "authors": [
+    "Flowng"
+  ],
+
+  "license": "MIT",
+
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.flowng.attack.Activate"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.19.4",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
